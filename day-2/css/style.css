@@ -1,0 +1,106 @@
+/* !! this is comment !! */
+
+#firstpara{
+    color: orange !important;
+    font-size: 20px;
+    text-transform: capitalize;
+    text-decoration: underline;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+}
+
+.bold-para{
+    font-weight: bold;
+    color: green;
+}
+
+
+p{
+    color: red;
+}
+
+
+p{
+    color: blue !important;
+}
+
+/************************* blocks *******************************/
+
+
+#intro{
+    margin: 40px;
+    /* margin-top: 15px; */
+    border: 2px solid blue;
+    padding: 40px;
+    height: 200px;
+    width: 100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.square{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    background-color: black;
+}
+
+
+.cirlce{
+    height: 150px;
+    width: 150px;
+    background-color: orange;
+    border-radius: 50%;
+}
+
+.banner{
+    height: 200px;
+    background-image: url(../imgs/bg.jpg);
+   /* background-size: 100% auto;*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 37px;
+}
+
+.banner > div > h1{
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.banner > div > p{
+    color: white !important;
+    text-align: center;
+}
+
+.banner > div{
+    height: 100%;
+    background-color: #00000080;
+    border-radius: 37px;
+}
+
+.avatar{
+    height: 90px;
+    width: 90px;
+    background-image: url(https://icon-library.com/images/avatar-icon-png/avatar-icon-png-8.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+ 
+.avatar > div{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background-color: #9e9e9e;
+    top: 2px;
+    right: -8px;
+    border-radius: 50%;
+    border: 5px solid white; 
+}
+
+.avatar > div.connected{ 
+    background-color: #49b66b; 
+}
