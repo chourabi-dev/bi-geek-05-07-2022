@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+}
+.feild{
+    height: 100vh;
+    width: 100%;
+    background-color: green;
+    position: relative;
+}
+
+.ball{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    background-color: white;
+}

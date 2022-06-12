@@ -1,0 +1,34 @@
+/*
+<div class="gallery">
+<img src="" id="main-gallery-display" style="width: 100%;">
+
+<button class="nav-btn previous" id="previous-btn">previous</button>
+
+<button class="nav-btn next" id="next-btn">next</button>
+</div>
+*/
+
+.gallery{
+    position: relative;
+}
+
+
+.gallery > .nav-btn{
+    position: absolute;
+    background: transparent;
+    border: 0;
+    color: white;
+    font-size: 28px;
+}
+
+.gallery>.nav-btn.previous{
+    top: calc( 50% - 9px);
+    left: 15px;
+    z-index: 1;
+}
+
+.gallery>.nav-btn.next{
+    top: calc( 50% - 9px);
+    right: 15px;
+    z-index: 1;
+}
