@@ -2,7 +2,11 @@ import logo from './logo.svg';
 import './App.css';
 import ContactElement from './components/contact';
 import Employee from './components/Employee';
-
+import LikeButton from './components/LikeButton';
+import ToggleSwitch from './components/ToggleSwitch';
+import Parent from './components/Parent';
+import Forms from './components/Forms';
+/*
 function App() { 
 
 
@@ -19,12 +23,11 @@ function App() {
     <div className="App">
         
       {
-        /**
-         *        <ContactElement codeContact="181915" year={ 2009 } title="test" email="test@test.com" /> 
+                <ContactElement codeContact="181915" year={ 2009 } title="test" email="test@test.com" /> 
                   <ContactElement codeContact="181920"  year={ 2015 } title="test 2" email="test-2@test.com" /> 
                   <ContactElement year={ 2018 } title="test 3" email="test-3@test.com" /> 
 
-         */
+         
       }
 
 
@@ -42,6 +45,19 @@ function App() {
 
     </div>
 
+  );
+}*/
+
+
+
+
+
+function App(){
+  return(
+    <div>
+      <Forms />
+      
+    </div>
   );
 }
 

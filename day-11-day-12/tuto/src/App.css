@@ -1,0 +1,35 @@
+.new{
+    color: green;
+}
+
+.old{
+    color: orange;
+}
+
+.switch{
+
+    height: 20px;
+    width: 40px;
+    background-color: #cecece;
+    border-radius: 18px;
+    position: relative;
+
+}
+
+.switch > div{
+    height: 20px;
+    width: 20px;
+    background-color: #6c6c6c;
+    border-radius: 18px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.switch.active {
+    background-color: #98e97b;
+}
+.switch.active > div{
+    left: 20px;
+}
