@@ -16,3 +16,17 @@ add bootstrap
 
 
 npm i bootstrap
+
+---------------------------------------------------------------------
+
+
+Node JS
+
+nodemon
+
+npm i -g nodemon
+
+
+
+
+
