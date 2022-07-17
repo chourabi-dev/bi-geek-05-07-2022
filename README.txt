@@ -27,6 +27,15 @@ nodemon
 npm i -g nodemon
 
 
+add express
+
+npm i express
+
+
+add mongodb
+
+npm i mongodb
+
 
 
 
