@@ -94,13 +94,36 @@ app.get('/employees', (req, res) => {
 
 /************************************************************************************************************************************ */  
 const express = require('express');
-const { createNewStudent } = require('./modules/students');
+const { createNewStudent, getStudentsList, updateStudents, updateOneStudent } = require('./modules/students');
 const app = express()
 const port = 8080
 
+
+// INSERT
 app.post('/api-add-student', (req, res) => {
     createNewStudent(req,res);
 })
+
+// LIST + Filter
+app.get('/api-list-student',(req,res)=>{
+    getStudentsList(req,res);
+})
+
+
+// update many
+app.post('/update-students',(req,res)=>{
+    updateStudents(req,res);
+})
+
+
+app.post('/update-student',(req,res)=>{
+    updateOneStudent(req,res);
+})
+
+
+
+
+ 
 
 
 
